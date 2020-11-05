@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+} 
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+        display: inline-flex;
+}
+
+body {
+    text-align: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 37%);
+}
+.agrupar{
+    margin: 1px auto;
+    width: 1600px;
+}
+.header{
+    display: flex;
+    color: white;
+    border: 4px;
+    padding: 20px;
+    background-color: #2d3436;
+    font-style: oblique;
+}
+.header h1{
+    text-align: left;
+    text-decoration: none;
+}
+.menu {
+    padding: 5px 15px;
+    text-align: left;
+    color: black;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px Verdana;
+    display: inline-flex; /*  para ponerlo todo en linea por bloques uno al lado del otro */
+}
+aside article{
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+article{
+    border: 3px outset black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article h1{
+    text-align: left;
+    font: bold;
+}
+article h2{
+    text-align: left;
+}
+article time{
+    color: #999;
+    text-align: left;
+}
+article footer p{
+    text-align: right;
+    margin-top: 20px;
+    font-size: 10px;
+}
+article p{
+    text-align: left;
+}
+.seccion {
+    margin: 10px;
+    width: 60%;
+    float: left;
+}
+.columna {
+    width: 30%;
+    float: right;
+    margin: 10px 0;
+    padding-right: 20px;
+}
+.columna blockquote{
+    border: 1px solid black;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: #2d3436;
+    color: white;
+    font-size: 20px;
+}
+img{
+    width: 70px;
+    display: block;
+    margin: 20px auto;
+    filter: grayscale(100%);
+}
+#foto{
+    width: 100px;
+    height: 100px;
+    transition-property: width, height;
+    transition-duration: 6s;
+  }
+#foto:hover{
+      width: 910px;
+      height: 160px;
+  }
+#foto:hover img{
+    width: 100px;
+}
+
