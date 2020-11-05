@@ -12,7 +12,7 @@
 
     <div class="agrupar">
         <header class="header">
-            <h1>Mi Blog</h1>
+            <h1>Project 1.1</h1>
         </header>
     
         <nav class="menu">
@@ -33,37 +33,44 @@
             <article>
                 <hgroup>
                      <h1>
-                       Titulo del primer articulo
+                       Sherlock Holmes
                      </h1>
                          <h2>
-                            Subtitulo del primer articulo
+                            
                          </h2>
             </hgroup>
-                <time datetime="30-01-00"> Publicado el 30/01/00 </time>
-                <img src="/img/Lorem" alt="Primera-Foto">
+                <time datetime="30-01-00"> Publicado el 05/11/2020 </time>
+                <div id="foto">
+                <img src="https://openclipart.org/download/325017/sherlock.svg" alt="Foto">
+                </div>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit temporibus fugiat deleniti iste tempora voluptatem ratione beatae, mollitia ipsum ullam, dolor in provident? Molestias, laudantium! Deserunt est minima voluptas pariatur.
-                </p>
-                
+                    Sherlock Holmes (pronunciado en inglés /ˈʃɜːlɒk həʊmz/) es un detective privado de ficción creado en 1887 por el escritor británico Sir Arthur Conan Doyle. Es un personaje inglés de finales del siglo XIX que destaca por su inteligencia, su hábil uso de la observación y el razonamiento deductivo para resolver casos difíciles. Es protagonista de una serie de cuatro novelas y cincuenta y seis relatos de ficción, que componen el «canon holmesiano», publicados en su mayoría por The Strand Magazine.
+
+                    Sherlock Holmes es el arquetipo de investigador cerebral por excelencia e influyó en gran medida en la ficción detectivesca posterior a su aparición. Aunque se considera a Auguste Dupin, creado por Edgar Allan Poe, como un personaje predecesor muy similar, la genialidad excéntrica de este no alcanzó la enorme popularidad que Holmes y su autor alcanzaron en vida de este...​          </p>
+                    <address>
+                        <a href="https://es.wikipedia.org/wiki/Sherlock_Holmes">Ver más...</a>
+                    </address>
                 <footer>
-                    <p>Comentarios (0)</p>
+                    <p>Artículo redactado por Tamara G.</p>
                 </footer>
-                <address>
-                    <a href="https://google.es">Ir a Google</a>
-                </address>
+                
                 <hgroup>
                      <h1>
-                    Titulo del segundo articulo
+                    Envianos tu comentario acerca de este post
                      </h1>
-                         <h2>Subtitulo del segundo articulo</h2>
+                         <h2></h2>
             </hgroup>
-                <time datetime="30-01-00">Publicado el 30/01/00 </time>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita similique optio, distinctio nostrum tempora sapiente consequuntur voluptatibus ducimus alias blanditiis debitis. Eos deleniti quis maiores sint modi nulla exercitationem iusto?
+                    <p>
+                        <!-- Para poner un cuadrado tipo comentarios
+                        col es las letras a lo ancho y rows son las 
+                        filas que se pueden ocupar-->
+                        <label></label>
+                        <textarea style="background-color: antiquewhite;" name="comentario" id="coment" cols="110" rows="2">Escribe aquí tu mensaje...</textarea> 
+                        <input style=
+                        "background-color: antiquewhite;" type="submit" name="enviar" value="Enviar">
+                    </p>
                 </p>
-                <footer>
-                    <p>Comentarios (10)</p>
-                </footer>
             </article>
             <article>
                 <hgroup>
@@ -77,7 +84,8 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita similique optio, distinctio nostrum tempora sapiente consequuntur voluptatibus ducimus alias blanditiis debitis. Eos deleniti quis maiores sint modi nulla exercitationem iusto?
                 </p>
                 <footer>
-                    <p>Comentarios (10)</p>
+                    <p>Artículo redactado por Matias S.
+                    </p>
                 </footer>
             
                 <hgroup>
@@ -91,7 +99,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita similique optio, distinctio nostrum tempora sapiente consequuntur voluptatibus ducimus alias blanditiis debitis. Eos deleniti quis maiores sint modi nulla exercitationem iusto?
                 </p>
                 <footer>
-                    <p>Comentarios (10)</p>
+                    <p>Artículo redactado por Juan José L.</p>
                 </footer>
             </article>
             <article>
@@ -138,13 +146,66 @@
             <blockquote cite="https://facebook.com">
                 Red Social 4
             </blockquote>
+            <article>
+                <hgroup>
+                     <h1>
+                    Acerca nuestra
+                     </h1>
+                         <h2>Quieres saber más sobre nosotros?</h2>
+                         
+            </hgroup>
+                <p>
+                    <fieldset> <!-- segundo formulario -->
+                        <legend>
+                            
+                        </legend>
+                   
+                    <p>
+                        <label>Email:</label>
+                        <!-- required te OBLIGA a rellenar el campo-->
+                        <input style="float: right;" type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label>Telefono:</label>
+                        <!-- Readonly solo para  leer-->
+                        <input style="float: right;" type="number" name="numero" maxlength="9" required>
+                    </p>
+                    <p>
+                        <label>Fecha de nacimiento:</label>
+                        <input style="float: right; width: 177px;" type="date" name="fecha">
+                    </p>
+                    <p>
+                        <label>Satisfacción al ver el blog:</label>
+                        <input style="float: right; width: 177px;" type="range" name="Satisfacción" id="">
+                    </p>
+                    <input type="reset" value="Resetear">
+                    <input type="button" value="Enviar">
+                    </fieldset>
+                </p>
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
+            
+                <hgroup>
+                     <h1>
+                    Titulo del segundo articulo
+                     </h1>
+                         <h2>Subtitulo del segundo articulo</h2>
+            </hgroup>
+                <time datetime="30-01-00">Publicado el 30/01/00 </time>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita similique optio, distinctio nostrum tempora sapiente consequuntur voluptatibus ducimus alias blanditiis debitis. Eos deleniti quis maiores sint modi nulla exercitationem iusto?
+                </p>
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
+            </article>
     
         </aside>
     
         <footer class="pie">
             Derechos reservados 2000-2020
         </footer>
-    </div>
     
 </body>
 </html>

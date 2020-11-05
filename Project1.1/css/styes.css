@@ -17,7 +17,7 @@ a{
 }
 
 header, section, footer, aside, nav, article, hgroup{
-        display: block;
+        display: inline-flex;
 }
 
 body {
@@ -27,8 +27,7 @@ body {
 }
 .agrupar{
     margin: 1px auto;
-    border: 1px solid black;
-    width: 1400px;
+    width: 1600px;
 }
 .header{
     display: flex;
@@ -36,9 +35,11 @@ body {
     border: 4px;
     padding: 20px;
     background-color: #2d3436;
+    font-style: oblique;
 }
 .header h1{
     text-align: left;
+    text-decoration: none;
 }
 .menu {
     padding: 5px 15px;
@@ -51,8 +52,13 @@ body {
     font: bold 14px Verdana;
     display: inline-flex; /*  para ponerlo todo en linea por bloques uno al lado del otro */
 }
+aside article{
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
 article{
-    border: 4px groove black;
+    border: 3px outset black;
     padding: 20px;
     margin-bottom: 15px;
 }
@@ -70,6 +76,7 @@ article time{
 article footer p{
     text-align: right;
     margin-top: 20px;
+    font-size: 10px;
 }
 article p{
     text-align: left;
@@ -99,7 +106,22 @@ article p{
     font-size: 20px;
 }
 img{
-    width: 80px;
+    width: 70px;
     display: block;
     margin: 20px auto;
+    filter: grayscale(100%);
 }
+#foto{
+    width: 100px;
+    height: 100px;
+    transition-property: width, height;
+    transition-duration: 6s;
+  }
+#foto:hover{
+      width: 910px;
+      height: 160px;
+  }
+#foto:hover img{
+    width: 100px;
+}
+
