@@ -112,6 +112,8 @@ img{
     display: block;
     margin: 20px auto;
     filter: grayscale(100%);
+    -webkit-box-shadow: 6px 6px 5px #ccc;
+    -moz-box-shadow: 6px 6px 5px #ccc;
 }
 #foto{
     width: 100px;
