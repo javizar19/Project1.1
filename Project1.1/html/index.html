@@ -21,7 +21,7 @@
                    <a href="#">Principal</a>
                 </li>
                 <li>
-                   <a href="#">Ayuda</a>
+                   <a href="/Project1.1/html/newsletter.html">Newsletter</a>
                 </li>
                 <li>
                     <a href="#">Contacto</a>
@@ -41,7 +41,7 @@
             </hgroup>
                 <time datetime="30-01-00"> Publicado el 05/11/2020 </time>
                 <div id="foto">
-                <img src="https://openclipart.org/download/325017/sherlock.svg" alt="Foto">
+                <img src="/Project1.1/img/sherlock-holmes.jpg" alt="Foto">
                 </div>
                 <p>
                     Sherlock Holmes (pronunciado en inglés /ˈʃɜːlɒk həʊmz/) es un detective privado de ficción creado en 1887 por el escritor británico Sir Arthur Conan Doyle. Es un personaje inglés de finales del siglo XIX que destaca por su inteligencia, su hábil uso de la observación y el razonamiento deductivo para resolver casos difíciles. Es protagonista de una serie de cuatro novelas y cincuenta y seis relatos de ficción, que componen el «canon holmesiano», publicados en su mayoría por The Strand Magazine.
@@ -60,17 +60,20 @@
                      </h1>
                          <h2></h2>
             </hgroup>
+            <form>
                 <p>
                     <p>
                         <!-- Para poner un cuadrado tipo comentarios
                         col es las letras a lo ancho y rows son las 
                         filas que se pueden ocupar-->
                         <label></label>
-                        <textarea style="background-color: antiquewhite;" name="comentario" id="coment" cols="110" rows="2">Escribe aquí tu mensaje...</textarea> 
+                        <textarea style="background: rgb(119,56,0);
+                        background: linear-gradient(0deg, rgba(119,56,0,1) 13%, rgba(244,151,0,1) 86%);" name="comentario" id="coment" cols="110" rows="2">Escribe aquí tu mensaje...</textarea> 
                         <input style=
-                        "background-color: antiquewhite;" type="submit" name="enviar" value="Enviar">
+                        "background-color: darkgoldenrod;" type="submit" name="enviar" value="Enviar">
                     </p>
                 </p>
+            </form>
             </article>
             <article>
                 <hgroup>
@@ -154,6 +157,7 @@
                          <h2>Para más posts!</h2>
                          
             </hgroup>
+            <form>
                 <p>
                     <fieldset> <!-- segundo formulario -->
                         <legend>
@@ -163,25 +167,26 @@
                     <p>
                         <label>Email:</label>
                         <!-- required te OBLIGA a rellenar el campo-->
-                        <input style="float: right;" type="email" name="email" required>
+                        <input style="float: right; background-color: darkgoldenrod;" type="email" name="email" required>
                     </p>
                     <p>
                         <label>Telefono:</label>
                         <!-- Readonly solo para  leer-->
-                        <input style="float: right;" type="number" name="numero" maxlength="9" required>
+                        <input type="tel" style="float: right; background-color: darkgoldenrod;" type="number" name="numero" maxlength="9" required>
                     </p>
                     <p>
                         <label>Fecha de nacimiento:</label>
-                        <input style="float: right; width: 177px;" type="date" name="fecha">
+                        <input style="float: right; width: 177px; background-color: darkgoldenrod;" type="date" name="fecha" required>
                     </p>
                     <p>
                         <label>Satisfacción al ver el blog:</label>
-                        <input style="float: right; width: 177px;" type="range" name="Satisfacción" id="">
+                        <input style="float: right; width: 177px; background-color: darkgoldenrod;" type="range" name="Satisfacción" id="">
                     </p>
-                    <input type="reset" value="Resetear">
-                    <input type="button" value="Enviar">
+                    <input style="background-color: darkgoldenrod;" type="reset" value="Resetear">
+                    <input style="background-color: darkgoldenrod;" type="button" value="Enviar">
                     </fieldset>
                 </p>
+            </form>
                 <footer>
                     <p>.</p>
                 </footer>

@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: bisque;
 }
 h1 {
     font-size: 20px;
@@ -21,9 +22,8 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 body {
-    text-align: center;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 37%);
+    text-align: center;background-image: url("/Project1.1//img/652737.jpg");
+    background-attachment: fixed; 
 }
 .agrupar{
     margin: 1px auto;
@@ -58,7 +58,7 @@ aside article{
     text-align: center;
 }
 article{
-    border: 3px outset black;
+    border: 3px outset bisque;
     padding: 20px;
     margin-bottom: 15px;
 }
@@ -93,7 +93,7 @@ article p{
     padding-right: 20px;
 }
 .columna blockquote{
-    border: 1px solid black;
+    border: 1px solid bisque;
     padding: 40px;
     margin-bottom: 20px;
 }
@@ -113,13 +113,13 @@ img{
 }
 #foto{
     width: 100px;
-    height: 100px;
+    height: 60px;
     transition-property: width, height;
     transition-duration: 6s;
   }
 #foto:hover{
       width: 910px;
-      height: 160px;
+      height: 80px;
   }
 #foto:hover img{
     width: 100px;
