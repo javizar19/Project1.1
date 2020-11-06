@@ -56,6 +56,7 @@ aside article{
     border: none;
     font-size: 15px;
     text-align: center;
+    position: relative;
 }
 article{
     border: 3px outset bisque;
@@ -112,8 +113,8 @@ img{
     display: block;
     margin: 20px auto;
     filter: grayscale(100%);
-    -webkit-box-shadow: 6px 6px 5px #ccc;
-    -moz-box-shadow: 6px 6px 5px #ccc;
+    -webkit-box-shadow: 6px 6px 20px #ccc;
+    -moz-box-shadow: 6px 6px 20px #ccc;
 }
 #foto{
     width: 100px;
