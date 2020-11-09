@@ -36,7 +36,8 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 body {
-    text-align: center;background-image: url("/Project1.1//img/652737.jpg");
+    text-align: center;
+    background-image: url("/Project1.1//img/652737.jpg");
     background-attachment: fixed; 
 }
 .agrupar{
@@ -150,13 +151,13 @@ div img{
 .container{
 	width:95%;
 	max-width:900px;
-	padding:32px 64px;
+	padding:16px 32px;
 	margin:auto;
 }
 .social{
 	/*las imágenes usadas tienen width de 48px*/
-	width:48px;
+	width:70px;
 	position:fixed;
-	top:50px;
-    right:0;
+	top:150px;
+    right:30px;
 }
