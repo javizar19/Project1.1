@@ -42,7 +42,7 @@ body {
     text-decoration: none;
 }
 .menu {
-    padding: 5px 15px;
+    padding: 5px 5px;
     text-align: left;
     color: black;
 }
@@ -90,15 +90,14 @@ article p{
 .columna {
     width: 30%;
     float: right;
-    margin: 10px 0;
+    margin: 10px 30px;
     padding-right: 20px;
 }
 .columna blockquote{
-    border: 1px solid bisque;
+    border: 3px double bisque;
     padding: 40px;
     margin-top: 10px;
-    margin-bottom: 70px;
-
+    margin-bottom: 50px;
 }
 .pie {
     clear: both;
@@ -108,7 +107,7 @@ article p{
     color: white;
     font-size: 20px;
 }
-img{
+div img{
     width: 70px;
     display: block;
     margin: 20px auto;
@@ -128,4 +127,19 @@ img{
   }
 #foto:hover img{
     width: 100px;
+}
+*{box-sizing:border-box;}
+
+.container{
+	width:95%;
+	max-width:900px;
+	padding:32px 64px;
+	margin:auto;
+}
+.social{
+	/*las imágenes usadas tienen width de 48px*/
+	width:48px;
+	position:fixed;
+	top:50px;
+    right:0;
 }
