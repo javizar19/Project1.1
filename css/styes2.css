@@ -23,7 +23,8 @@ header, section, footer, aside, nav, article, hgroup{
 
 body {
     text-align: center;
-    background-color: orange;
+    background: rgb(247,70,16);
+    background: linear-gradient(0deg, rgba(247,70,16,1) 32%, rgba(244,151,0,1) 81%);
     background-attachment: fixed; 
 }
 .agrupar{
@@ -35,8 +36,12 @@ body {
     color: white;
     border: 4px;
     padding: 20px;
-    background-color: orangered;
+    background-color: red;
     font-style: oblique;
+    outline: 3px dotted red;
+    outline-offset: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .menu {
     padding: 5px 5px;
@@ -56,9 +61,11 @@ aside article{
     position: relative;
 }
 article{
-    border: 3px outset bisque;
-    padding: 20px;
+    border: 0px outset bisque;
+    padding: 10px;
     margin-bottom: 15px;
+    width: 250px;
+    height: 659px;
 }
 article h1{
     text-align: left;
@@ -79,32 +86,47 @@ article footer p{
 article p{
     text-align: left;
 }
+@font-face {
+    font-family: "Bitstream Vera Serif Bold", Times, sans-serif;
+    src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+}
 .seccion {
     margin: 10px;
-    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 99%;
+    height: 700px;
+    padding: none;
     float: left;
-    background-image: url("/Project1.1/img/informatica1.png");
     background-attachment: fixed;
     color: black;
-    font-size: 50px;
-}
-.columna {
-    width: 30%;
-    float: right;
-    margin: 10px 30px;
-    padding-right: 20px;
-}
-.columna blockquote{
-    border: 3px double bisque;
-    padding: 40px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    font-size: 90px;
+    border: 3px dotted orangered;
+    outline: 3px dotted red;
+    outline-offset: 10px;
 }
 .pie {
     clear: both;
     text-align: center;
     padding: 20px;
-    background-color: orangered;
+    background-color: red;
     color: white;
     font-size: 20px;
+}
+.pie a{
+    font-family: fantasy;
+    font-size: 40px;
+    position: relative;
+}
+form{
+    color: black;
+    font-size: 40px;
+    text-align: right;
+    height: 250px;
+    width: 250px;
+}
+section p{
+    color: black;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
