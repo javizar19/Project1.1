@@ -3,19 +3,6 @@
     padding: 0px;
     color: bisque;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
-  }
-  
-.grid-container > div {
-    border: 1px  black;
-    text-align: center;
-    background-color: #2d3436;
-    font-size: 30px;
-  }
 h1 {
     font-size: 20px;
     font-family: sans-serif;
@@ -36,7 +23,7 @@ header, section, footer, aside, nav, article, hgroup{
 
 body {
     text-align: center;
-    background-image: url("/Project1.1//img/652737.jpg");
+    background-color: orange;
     background-attachment: fixed; 
 }
 .agrupar{
@@ -48,12 +35,8 @@ body {
     color: white;
     border: 4px;
     padding: 20px;
-    background-color: #2d3436;
+    background-color: orangered;
     font-style: oblique;
-}
-.header h1{
-    text-align: left;
-    text-decoration: none;
 }
 .menu {
     padding: 5px 5px;
@@ -100,6 +83,10 @@ article p{
     margin: 10px;
     width: 60%;
     float: left;
+    background-image: url("/Project1.1/img/informatica1.png");
+    background-attachment: fixed;
+    color: black;
+    font-size: 50px;
 }
 .columna {
     width: 30%;
@@ -117,46 +104,7 @@ article p{
     clear: both;
     text-align: center;
     padding: 20px;
-    background-color: #2d3436;
+    background-color: orangered;
     color: white;
     font-size: 20px;
-}
-div img{
-    width: 70px;
-    display: block;
-    margin: 20px auto;
-    filter: grayscale(100%);
-    -webkit-box-shadow: 6px 6px 20px #ccc;
-    -moz-box-shadow: 6px 6px 20px #ccc;
-    
-}
-#foto{
-    width: 100px;
-    height: 60px;
-    transition-property: width, height;
-    transition-duration: 6s;
-  }
-#foto:hover{
-      width: 910px;
-      height: 80px;
-      animation-direction: reverse;
-  }
-#foto:hover img{
-    width: 100px;
-    animation-direction: reverse;
-}
-*{box-sizing:border-box;}
-
-.container{
-	width:95%;
-	max-width:900px;
-	padding:16px 32px;
-	margin:auto;
-}
-.social{
-	/*las imágenes usadas tienen width de 48px*/
-	width:70px;
-	position:fixed;
-	top:150px;
-    right:30px;
 }
