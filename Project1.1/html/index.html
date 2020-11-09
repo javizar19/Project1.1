@@ -149,9 +149,9 @@ A Paco, que al igual que el resto de sus hermanos Ramón, María Lucía, Pepe y 
             </div>
                 <hgroup>
                      <h1>
-                    Rellena nuestro formulario
+                    Registrate
                      </h1>
-                         <h2>Para más posts!</h2>
+                         <h2>Para más información</h2>
                          
             </hgroup>
             <form>
@@ -161,6 +161,15 @@ A Paco, que al igual que el resto de sus hermanos Ramón, María Lucía, Pepe y 
                             
                         </legend>
                    
+                        <p>
+                            <label>Usuario</label>
+                            <input style="float: right; background-color: darkgoldenrod;" type="text" name="username" required>
+                        </p>
+                        <p>
+                            <label>Contraseña</label>
+                            <input style="background-color: darkgoldenrod; float: right;" type="password" name="password" required minlength="6">
+                        </p>
+                        
                     <p>
                         <label>Email:</label>
                         <!-- required te OBLIGA a rellenar el campo-->
@@ -179,7 +188,7 @@ A Paco, que al igual que el resto de sus hermanos Ramón, María Lucía, Pepe y 
                         <label>Satisfacción al ver el blog:</label>
                         <input style="float: right; width: 177px; background-color: darkgoldenrod;" type="range" name="Satisfacción" id="">
                     </p>
-                    <button style="background-color: darkgoldenrod; float: right; width: 177px; " type="button" onclick="alert('Registrado correctamente')" value="Registrar">Registrar</button>
+                    <button style="background-color: darkgoldenrod; float: right; width: 177px; " type="button"value="Registrar">Registrar</button>
                     <p class="change_link">  
                         Ya eres miembro
                         <a href="#tologin" class="to_register"> Loguéate </a>
@@ -202,7 +211,14 @@ A Paco, que al igual que el resto de sus hermanos Ramón, María Lucía, Pepe y 
         </aside>
     
         <footer class="pie">
-            Derechos reservados 2000-2020
+            <div class="grid-container">
+                <div>
+                    
+                </div>
+                <div>
+                    <h6>Derechos reservados 2020 ©</h6>
+                </div>
+            </div>
         </footer>
     
 </body>

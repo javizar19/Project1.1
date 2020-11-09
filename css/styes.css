@@ -3,6 +3,20 @@
     padding: 0px;
     color: bisque;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+.grid-container > div {
+    background-color: ;
+    border: 1px  black;
+    text-align: center;
+    background-color: #2d3436;
+    font-size: 30px;
+  }
 h1 {
     font-size: 20px;
     font-family: sans-serif;
@@ -114,6 +128,7 @@ div img{
     filter: grayscale(100%);
     -webkit-box-shadow: 6px 6px 20px #ccc;
     -moz-box-shadow: 6px 6px 20px #ccc;
+    
 }
 #foto{
     width: 100px;
@@ -124,9 +139,11 @@ div img{
 #foto:hover{
       width: 910px;
       height: 80px;
+      animation-direction: reverse;
   }
 #foto:hover img{
     width: 100px;
+    animation-direction: reverse;
 }
 *{box-sizing:border-box;}
 
