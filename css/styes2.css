@@ -30,8 +30,8 @@ header, section, footer, aside, nav, article, hgroup{
 
 body {
     text-align: center;
-    background: rgb(247,70,16);
-    background: linear-gradient(0deg, rgba(247,70,16,1) 32%, rgba(244,151,0,1) 81%);
+    background: rgb(255,179,0);
+    background: radial-gradient(circle, rgba(255,179,0,1) 7%, rgba(198,223,93,1) 29%, rgba(223,171,93,1) 44%);
     background-attachment: fixed; 
 }
 .agrupar{
