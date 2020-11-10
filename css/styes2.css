@@ -3,6 +3,13 @@
     padding: 0px;
     color: bisque;
 }
+.centrado{
+    margin:10px auto;
+    display:block;
+    height: 250px;
+    width: 400px;
+}
+
 h1 {
     font-size: 20px;
     font-family: sans-serif;
@@ -29,7 +36,7 @@ body {
 }
 .agrupar{
     margin: 1px auto;
-    width: 1600px;
+    width: 1500px;
 }
 .header{
     display: flex;
@@ -60,32 +67,6 @@ aside article{
     text-align: center;
     position: relative;
 }
-article{
-    border: 0px outset bisque;
-    padding: 10px;
-    margin-bottom: 15px;
-    width: 250px;
-    height: 659px;
-}
-article h1{
-    text-align: left;
-    font: bold;
-}
-article h2{
-    text-align: left;
-}
-article time{
-    color: #999;
-    text-align: left;
-}
-article footer p{
-    text-align: right;
-    margin-top: 20px;
-    font-size: 10px;
-}
-article p{
-    text-align: left;
-}
 @font-face {
     font-family: "Bitstream Vera Serif Bold", Times, sans-serif;
     src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
@@ -100,7 +81,7 @@ article p{
     float: left;
     background-attachment: fixed;
     color: black;
-    font-size: 90px;
+    font-size: 80px;
     border: 3px dotted orangered;
     outline: 3px dotted red;
     outline-offset: 10px;
