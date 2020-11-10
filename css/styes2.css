@@ -95,7 +95,7 @@ article p{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 99%;
-    height: 700px;
+    height: 656px;
     padding: none;
     float: left;
     background-attachment: fixed;
@@ -115,7 +115,7 @@ article p{
 }
 .pie a{
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 20px;
     position: relative;
 }
 form{
@@ -127,6 +127,13 @@ form{
 }
 section p{
     color: black;
-    float: left;
+    text-align: center;
+    margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    font-size: 1px;
+    color: black;
+    text-align: right;
+    font-family: fantasy;
 }
